@@ -5,6 +5,7 @@ from .bitcoin_cash import BitcoinCash
 from .ethereum import Ethereum
 from .litecoin import Litecoin
 from .ripple import Ripple
+from .dogecoin import Dogecoin
 
 __all__ = [
     'registry',
@@ -13,5 +14,6 @@ __all__ = [
     'BitcoinCash',
     'Ethereum',
     'Litecoin',
-    'Ripple'
+    'Ripple',
+    'Dogecoin'
 ]
